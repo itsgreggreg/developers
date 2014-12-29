@@ -1,11 +1,8 @@
 Creating curriculum
 ==========
 
-Our students run through lessons in a three step process. 
-
-* Read through the material on a topic in the wiki on Github
-* Complete an exercise on a browser-based IDE called [Cloud 9](https://c9.io/)
-* Take a quiz via a form on Google Docs
+Our students run through lessons in a three step process. They first read through the material on a topic in the wiki on Github,
+then complete an exercise on a browser-based IDE called [Cloud 9](https://c9.io/), and finally take a quiz via a form on Google Docs.
 
 1. **Material**: Wiki page material on a concept should be readable in under 15 minutes. The page should be written for absolute newbies, and if it's a page on code, list syntax at the top, then a table of contents, then concepts by header.  
 
