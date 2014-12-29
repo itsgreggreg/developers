@@ -9,9 +9,9 @@ Our students run through lessons in a three step process.
 
 1. **Material**: Wiki page material on a concept should be readable in under 15 minutes. The page should be written for absolute newbies, and if it's a page on code, list syntax at the top, then a table of contents, then concepts by header.  
 
-[Check out this example](https://github.com/OperationSpark/variables-and-constants/blob/master/README.md).
+   [Check out this example](https://github.com/OperationSpark/variables-and-constants/blob/master/README.md).
 
-Table of contents generator is [here](https://github.com/thlorenz/doctoc) 
+   Table of contents generator is [here](https://github.com/thlorenz/doctoc) 
 
 2. **Cloud9 Exercise**: You should provide an exercise with anything that has syntax or markup. Create a simple exercise that practices the concepts outlined in the page.  So, if it's on loops, a simple exercise on JavaScript loops.
 
@@ -29,7 +29,7 @@ Once you've created the excercise and quiz, go back to the wiki page and add the
 
 <a href="https://docs.google.com/forms/d/1hV_VWLJDcxHBpzSd63q0WzjrkYI19V9Xz7X8Zh2A8kI/viewform?usp=send_form]" target="_blank"><img src="https://raw.githubusercontent.com/OperationSpark/javascript-wiki/master/images/btn-quiz.png" alt="Take the quiz"></a>
 
-Once you're done, please link to your work by submitting it in the developers channel on [Operation Spark's Slack](https://operationspark.slack.com/). If you don't have a Slack account for Operation Spark yet please email max@operationspark.org to get set up. 
+Once you're done, please link to your work for review by posting it in the developers channel on [Operation Spark's Slack](https://operationspark.slack.com/). If you don't have a Slack account for Operation Spark yet please email max@operationspark.org to get set up. 
 
 #### State of Wiki
 
