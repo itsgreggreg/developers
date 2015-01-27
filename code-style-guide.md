@@ -1,8 +1,11 @@
 The following is a code style-guide that we've found useful in any teaching code we write for the Operation Spark program. We make no claim that this is standard for general development, simply that we've found writing code in this way helpful in avoiding common mistakes and pitfalls. Remember that the #1 priority to be clear and precise so that the kids understand the lesson at hand.
 
+All of these are of course up for debate.
+
 * **DO** 'use strict' at the top of every script.
 * **DO** place all scripts in a `(function() { ... }).call()` IIFE.
 
+* **DO** use double quotes (`"`) as a string delimeter. 
 * **DO** declare all variables up front without initialization.
 * **DON'T** mix variable declaration, initialization, and doing stuff within a single function. Reinforce that each function has these areas.
 * **DO** use expression assignment to create functions (`myFunc = function() { ... }`).
