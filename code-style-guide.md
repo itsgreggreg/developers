@@ -8,7 +8,7 @@ All of these are of course up for debate.
 * **DO** use double quotes (`"`) as a string delimeter. 
 * **DO** declare all variables up front without initialization.
 * **DON'T** mix variable declaration, initialization, and doing stuff within a single function. Reinforce that each function has these areas.
-* **DO** use expression assignment to create functions (`myFunc = function() { ... }`).
+* **DO** use expression assignment to create functions `myFunc = function() { ... }`.
 * **AVOID** anonymous functions. Prefer to assign functions to variables and then pass in those variables into handlers.
 * **AVOID** chaining jquery methods. We have found that this additional concept can be confusing, especially since it typically involves unusual indentation.
 
