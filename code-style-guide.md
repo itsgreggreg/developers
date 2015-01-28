@@ -1,4 +1,4 @@
-The following is a code style-guide that we've found useful in any teaching code we write for the Operation Spark program. We make no claim that this is standard for general development, simply that we've found writing code in this way helpful in avoiding common mistakes and pitfalls. Remember that the #1 priority to be clear and precise so that the kids understand the lesson at hand.
+The following is a code style-guide that we've found useful in any teaching code we write for the Operation Spark program. We make no claim that this is standard for general development, simply that we've found writing code in this way helpful in avoiding common mistakes and pitfalls. Remember that the #1 priority to be clear and concise so that the kids understand the lesson at hand.
 
 All of these are of course up for debate.
 
@@ -7,7 +7,7 @@ All of these are of course up for debate.
 
 * **DO** use double quotes (`"`) as a string delimeter. 
 * **DO** declare all variables up front without initialization.
-* **DON'T** mix variable declaration, initialization, and doing stuff within a single function. Reinforce that each function has these areas.
+* **DON'T** mix variable declaration, initialization, do stuff, and optionally returning a value within a single function. Reinforce that each function has these areas and that they go in that order.
 * **DO** use expression assignment to create functions `myFunc = function() { ... }`.
 * **AVOID** anonymous functions. Prefer to assign functions to variables and then pass in those variables into handlers.
 * **AVOID** chaining jquery methods. We have found that this additional concept can be confusing, especially since it typically involves unusual indentation.
