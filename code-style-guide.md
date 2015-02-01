@@ -21,14 +21,14 @@ All of these are of course up for debate. If you disagree with one then open it 
 
 * **AVOID** using the `this` parameter wherever an alternative is available. `this` is a feature that is confusing and poorly understood even by professional developers and the same effect can almost alway be achieved a different way.
      
-    var person = {
-        name: "Fred Flintstone",
-        sayHi: function() {
-          return person.name + " says hello";
-        }
-    }
-    $('li').on('click', function(ev) {
-      $(ev.target).toggleClass('selected');
-    });
+     var person = {
+          name: "Fred Flintstone",
+          sayHi: function() {
+               return person.name + " says hello";
+          }
+     }
+     $('li').on('click', function(ev) {
+           $(ev.target).toggleClass('selected');
+     });
 
 * **AVOID** using the `new` keyword. This is even more poorly understood than `this` and even more confusing. With the exception of libraries that force the use of `new` you should avoid it. You do not need its functionality in your own code. You don't. Prefer to extend things directly to share functionality. When you absolutely must use `new` see if you can use the less ambiguous [`Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) instead.
