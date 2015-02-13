@@ -8,7 +8,9 @@ All of these are of course up for debate. If you disagree with one then open it 
   * Discrete means that the end of the step should be a logical stopping point. The sort of thing that you might do a commit after.
   * Verifiable means that you should provide criteria by which they can verify that they completed that step successfully. Ideally things are visually verifiable but at least have it possible to expose a method on the window object and try invoking it through the console.
   * Continuous means that the step should make sense given all the previous steps. We want to avoid the situation where we are putting in code in preparation for a future step before the need for it is obvious to students. This is confusing. Prefer to follow YAGNI principles and refactor afterwards.
-* **DO** create code templates taht can be cloned from Github. We are there for a limited amout of time and not everyone is great at typing. **AVOID** creating lessons where a significant amount of classtime will be blown typing things that students don't understand or are tangerial to the lesson at hand.
+* **DO** create code templates that can be cloned from Github. We are there for a limited amout of time and not everyone is great at typing. **AVOID** creating lessons where a significant amount of classtime will be blown typing things that students don't understand or are tangerial to the lesson at hand.
 * **DO** put clear and exclit instructions on how to clone and get started in your slides.
 * **CONSIDER** including a mockup for project-based lessons. Operation Spark has a Balsamiq license.
 * **DO NOT** spend a lot of time lecturing on syntax. Concepts are way more important.
+* **ALWAYS** rehearse at least parts of your lecture beforehand.
+* **ALWAYS** run trhough any code that you expect students to write yourself. You will probably have to run through it twice. Once when creating the lesson and once following along with the final series of steps you generate as a student would.
