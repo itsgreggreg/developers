@@ -15,4 +15,4 @@ All of these are of course up for debate. If you disagree with one then open it 
 * **CONSIDER** including a mockup for project-based lessons. Operation Spark has a Balsamiq license.
 * **DO NOT** spend a lot of time lecturing on syntax. Concepts are way more important.
 * **PREFER** exercises where students can see immediate results. [Jsbin](http://jsbin.com) and the clound 9 live-preview file view are great tools for this
-* **DO** attempt to formulate physical and familiars metaphors for code concepts. 
+* **DO** attempt to formulate physical and familiars metaphors for code concepts. Eg functions as secret agents from Ben Schenker. Functions are a secret agent who you nvoke via their code name, you leave a box on a bench for them, they take it follow instructions to complete their mission, then optionally leave a box for you to pick up afterwards.
