@@ -2,6 +2,8 @@ The following is a presentation style-guide that we've found useful in any teach
 
 All of these are of course up for debate. If you disagree with one then open it up for discussion in Slack, don't just go your own way.
 
+* **ALWAYS** rehearse at least parts of your lecture beforehand.
+* **ALWAYS** run through any code that you expect students to write yourself. You will probably have to run through it twice. Once when creating the lesson and once following along with the final series of steps you generate as a student would.
 * **DO** use slides with a minimal background. White or light gradient. **AVOID** flashy or distracting slides
 * **DO** ensure that any project-based lesson is broken into small, discrete, verifiable, and continuous steps
   * Small means students shouldn't have to type more than a dozen or so lines of code
@@ -12,5 +14,4 @@ All of these are of course up for debate. If you disagree with one then open it 
 * **DO** put clear and exclit instructions on how to clone and get started in your slides.
 * **CONSIDER** including a mockup for project-based lessons. Operation Spark has a Balsamiq license.
 * **DO NOT** spend a lot of time lecturing on syntax. Concepts are way more important.
-* **ALWAYS** rehearse at least parts of your lecture beforehand.
-* **ALWAYS** run trhough any code that you expect students to write yourself. You will probably have to run through it twice. Once when creating the lesson and once following along with the final series of steps you generate as a student would.
+* **PREFER** exercises where students can see immediate results. [Jsbin](http://jsbin.com) and the clound 9 live-preview file view are great tools for this
