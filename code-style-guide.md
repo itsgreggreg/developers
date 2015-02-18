@@ -2,7 +2,7 @@ The following is a code style-guide that we've found useful in any teaching code
 
 All of these are of course up for debate. If you disagree with one then open it up for discussion in Slack, don't just go your own way.
 
-* **DO** 'use strict' at the top of every script.
+* **DO** "use strict" at the top of every script.
 * **DO** place all scripts in a `(function() { ... }).call()` IIFE.
 
 * **DO** use double quotes (`"`) as a string delimeter. 
