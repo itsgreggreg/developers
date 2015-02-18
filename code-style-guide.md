@@ -34,4 +34,4 @@ All of these are of course up for debate. If you disagree with one then open it 
 * **AVOID** using the `new` keyword. This is even more poorly understood than `this` and even more confusing. With the exception of libraries that force the use of `new` you should avoid it. You do not need its functionality in your own code. You don't. Prefer to extend things directly to share functionality. When you absolutely must use `new` see if you can use the less ambiguous [`Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) instead.
 
 * **AVOID** having variable names that are similar to other things that exist in the same context. Eg students tend to find very confusing what is `p` in `html = "<p>" + p.name + "</p>"`
-* **AVOID** using plural and singular variable names. Rather than a `players` array and paramters named `player`, consider `allPlayers` and `player`.
+* **AVOID** using plural and singular variable names in the same context. Rather than `players.filter(function(player) {`, consider `allPlayers` and `player`.
