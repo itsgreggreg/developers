@@ -3,7 +3,7 @@ The following is a presentation style-guide that we've found useful in any teach
 All of these are of course up for debate. If you disagree with one then open it up for discussion in Slack, don't just go your own way.
 
 * **ALWAYS** rehearse at least parts of your lecture beforehand.
-* **ALWAYS** run through any code that you expect students to write yourself. You will probably have to run through it twice. Once when creating the lesson and once following along with the final series of steps you generate as a student would.
+* **ALWAYS** run through any code that you expect students to write yourself. You will probably have to run through it twice. Once when creating the lesson and once following along with the final series of steps you generate as a student would. This will enable you to see what your instructions look like from a student's point of view and identify any gaps in tooling that you might need to come up with a solution for.
 * **DO** use slides with a minimal background. White or light gradient. **AVOID** flashy or distracting slides
 * **DO** ensure that any project-based lesson is broken into small, discrete, verifiable, and continuous steps
   * Small means students shouldn't have to type more than a dozen or so lines of code
@@ -14,5 +14,5 @@ All of these are of course up for debate. If you disagree with one then open it 
 * **DO** put clear and explicit instructions on how to clone and get started in your slides.
 * **CONSIDER** including a mockup for project-based lessons. Operation Spark has a Balsamiq license.
 * **DO NOT** spend a lot of time lecturing on syntax. Concepts are way more important.
-* **PREFER** exercises where students can see immediate results. [Jsbin](http://jsbin.com) and the clound 9 live-preview file view are great tools for this
+* **PREFER** exercises where students can see immediate results. [Jsbin](http://jsbin.com) and the Cloud 9 live-preview file view are great tools for this.
 * **DO** attempt to formulate physical and familiars metaphors for code concepts. Eg functions as secret agents from Ben Schenker. Functions are a secret agent who you nvoke via their code name, you leave a box on a bench for them, they take it follow instructions to complete their mission, then optionally leave a box for you to pick up afterwards.
