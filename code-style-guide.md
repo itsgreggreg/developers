@@ -2,24 +2,30 @@ The following is a code style-guide that we've found useful in any teaching code
 
 All of these are of course up for debate. If you disagree with one then open it up for discussion in Slack, don't just go your own way.
 
-* **DO** "use strict" at the top of every script.
-* **DO** place all scripts in a `(function() { ... }).call()` IIFE.
+* **DO** put "use strict" at the top of every script.
+* **DO** place all scripts in a `(function() { ... }).call()`.
 
 * **DO** use double quotes (`"`) as a string delimeter. 
 * **DO** declare all variables up front without initialization.
-* **DON'T** mix variable declaration, initialization, do stuff, and optionally returning a value within a single function. Reinforce that each function has these areas and that they go in that order.
-* **DO** use expression assignment to create functions `myFunc = function() { ... }`.
-* **AVOID** anonymous functions. Prefer to assign functions to variables and then pass in those variables into handlers. This is especially the case for multi-line functions.
+* **DO** always seperate: 
+  * variable declaration
+  * variable initialization 
+  * doing things
+  * returning a value
+* **DO** Reinforce that each function does these things and that they go in that order.
+* **DO** Assign functions to variables `myFunc = function() { ... }`.
+* **DON'T** Pass function literals as parameters to functions. It makes the code too hard to read.
 * **AVOID** chaining jquery methods. We have found that this additional concept can be confusing, especially since it typically involves unusual indentation.
 
-* **DO** use the long-form `[id=foo]`, `[class=bar]` syntax until it becomes convenient to use the short-form `#foo` and `.bar` syntax.
+* **DO** Use full attribute selectors `[id=foo]`, `[class=bar]` until it becomes convenient to use equivalent shorthand selectors `#foo`, `.bar`.
 * **AVOID** combining selectors unless specifically teaching that.
-* **DO** be fastidious in indenting everything correctly. **AVOID** doing statements on the same line.
+* **DO** Be thorough in teaching and enforcing correct indentation. 
+* **AVOID** multiple statements on the same line.
 
 * **CONSIDER** using in-page script and style tags until it is helpful to put them in different files.
 * **DO** use quotes around html attribute values.
 
-* **AVOID** using the `this` parameter wherever an alternative is available. `this` is a feature that is confusing and poorly understood even by professional developers and the same effect can almost alway be achieved a different way.
+* **AVOID** using `this` wherever possible. `this` is confusing to teach and can usually be avoided.
      
         var person = {
             name: "Fred Flintstone",
@@ -31,7 +37,7 @@ All of these are of course up for debate. If you disagree with one then open it 
             $(ev.target).toggleClass('selected');
         });
 
-* **AVOID** using the `new` keyword. This is even more poorly understood than `this` and even more confusing. With the exception of libraries that force the use of `new` you should avoid it. You do not need its functionality in your own code. You don't. Prefer to extend things directly to share functionality. When you absolutely must use `new` see if you can use the less ambiguous [`Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) instead.
-
-* **AVOID** having variable names that are similar to other things that exist in the same context. Eg students tend to find very confusing what is `p` in `html = "<p>" + p.name + "</p>"`
+* **AVOID** using the `new` keyword with the exception of libraries that force you to use it. `new` is even more confusing to teach than `this`. Prefer to extend objects directly to share functionality. When you absolutely must use `new` see if you can use the less ambiguous [`Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) instead.
+* **AVOID** Giving variables names that are similar to other things in context. Eg: `html = "<p>" + p.name + "</p>"`
+* **DO** Prefer full word variable names over abbreviations. Eg: `person.name` instead of `p.name`
 * **AVOID** using plural and singular variable names in the same context. Rather than `players.filter(function(player) {`, consider `allPlayers` and `player`.
