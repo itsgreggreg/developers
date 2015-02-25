@@ -14,12 +14,12 @@ All of these are of course up for debate. If you disagree with one then open it 
   * returning a value
 * **DO** Reinforce that each function does these things and that they go in that order.
 * **DO** Assign functions to variables `myFunc = function() { ... }`.
-* **DON'T** Pass function literals as parameters to functions. It makes the code too hard to read.
+* **Avoid** Passing raw functions as parameters to functions. Prefer to assign them to variables an then pass those variables.
 * **AVOID** chaining jquery methods. We have found that this additional concept can be confusing, especially since it typically involves unusual indentation.
 
 * **DO** Use full attribute selectors `[id=foo]`, `[class=bar]` until it becomes convenient to use equivalent shorthand selectors `#foo`, `.bar`.
 * **AVOID** combining selectors unless specifically teaching that.
-* **DO** Be thorough in teaching and enforcing correct indentation. 
+* **DO** Be thorough in indenting everything correctly. 
 * **AVOID** multiple statements on the same line.
 
 * **CONSIDER** using in-page script and style tags until it is helpful to put them in different files.
@@ -39,5 +39,4 @@ All of these are of course up for debate. If you disagree with one then open it 
 
 * **AVOID** using the `new` keyword with the exception of libraries that force you to use it. `new` is even more confusing to teach than `this`. Prefer to extend objects directly to share functionality. When you absolutely must use `new` see if you can use the less ambiguous [`Object.create`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) instead.
 * **AVOID** Giving variables names that are similar to other things in context. Eg: `html = "<p>" + p.name + "</p>"`
-* **DO** Prefer full word variable names over abbreviations. Eg: `person.name` instead of `p.name`
 * **AVOID** using plural and singular variable names in the same context. Rather than `players.filter(function(player) {`, consider `allPlayers` and `player`.
